@@ -1,11 +1,11 @@
 @font-face {
   font-family: Metropolis;
-  src: url(./fonts/metropolis.regular.otf);
+  src: url(/sample-ui/fonts/metropolis.regular.otf);
 }
 
 @font-face {
   font-family: Inter;
-  src: url(./fonts/inter-variable.ttf);
+  src: url(/sample-ui/fonts/inter-variable.ttf);
 }
 
 * {
