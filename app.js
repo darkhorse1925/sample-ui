@@ -84,6 +84,7 @@ function clickHandler(event) {
       let toggle = box.querySelector(".toggle");
 
       box.style.backgroundColor = "var(--bg)";
+      box.style.borderColor = "var(--gray)";
       toggleOutline.style.borderColor = "var(--gray)";
       toggle.style.backgroundColor = "var(--bg)";
     }
@@ -104,10 +105,12 @@ function render() {
       let toggle = box.querySelector(".toggle");
 
       box.style.backgroundColor = "var(--secondary)";
+      box.style.borderColor = "var(--primary)";
       toggleOutline.style.borderColor = "var(--primary)";
       toggle.style.backgroundColor = "var(--primary)";
     }
   });
 }
+
 
 
